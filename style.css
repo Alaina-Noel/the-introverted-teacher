@@ -1,0 +1,106 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    border: solid blueviolet 3px;
+    flex-direction: column;
+    height: 100%;
+    align-content:center;
+
+}
+
+.header {
+    list-style-type: none;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+
+.left-links {
+    display: flex;
+    color: white;
+    font-weight: 900;
+    padding: 20px;
+    align-items: center;
+}
+
+.right-links {
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 55px;
+}
+
+.under-header {
+    border: solid pink 3px;
+    display: flex;
+    padding: 30px;
+}
+
+.boxes-portion-container {
+    border: solid green 3px;
+    display: flex;
+    padding: 30px;
+}
+
+.inspiring-portion {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 100px;
+    align-content: center;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 20px; 
+    color: #1F2937;
+ 
+}
+
+span {
+    font-style: italic;
+    font-size: 20px; 
+    color: #1F2937;
+    font-weight: 900;
+    position: fixed;
+    
+}
+
+.action-items {
+    border: solid blue 3px;
+    display: flex;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    border: solid white 2px;
+    margin: 0;
+}
+
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1F2937;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  justify-content: center;
+}   
